@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+body{ background-color: #170440;
+    color: #05F2DB;
+    font-family: 'Gruppo', cursive  ;
+
+}
+/* TodTodo id em HTML é identificado nas CSS por 
+um símbolo #. Toda class em HTML é identificada nas CSS por um 
+ponto. id=#,class=.
+
+só pode usar id em um unico elemento dentro de um documento,mas pode usar o mesmo id em outro documento.
+
+Já o class pode ser usado mais de uma unica vez.*/
+
+.fa-brands{
+    font-size: 50px;
+}
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url(fundo-de-galaxia-realista_23-2148991322.webp) 
+    ;
+    background-size: cover;
+    border-radius: 10px;
+ 
+    
+    
+   
+    font-family: 'Bungee Outline', cursive;;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    
+  }
+  .header p{font-family: 'Creepster', cursive;;
+
+  }
+main{
+   background-color: #2405F2;
+    width: 900px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#200559;
+    border-radius: 10px;
+  
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(17, 40, 169);
+  }
+  
+  
